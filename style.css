@@ -1,0 +1,179 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+    font-family: 'Nanum Gothic', sans-serif;
+}
+/* Partie générale */
+.container{
+    background-color: #FFF3DD;
+}
+
+.interface{
+    display: flex;
+    justify-content: center;
+    align-self: center;
+    padding-bottom: 170px;
+    padding-top: 100px;
+}
+
+/* Première partie */
+.content{
+    width: 400px;
+    border-radius: 30px;
+    box-shadow: 0.1px 20px 10px #FFDAA0;
+    padding: 40px 20px;
+}
+
+.content-part1{
+    margin-right: 50px;
+    color: white;
+    background: linear-gradient(#9A4EBE, #A45CC2, #994EBE); 
+}
+
+.picture{
+    width: 300px;
+}
+
+
+.content-mg h2{
+    font-size: 40px;
+    margin-top: 20px;
+    margin-bottom: 10px;
+}
+
+.content-mg h6{
+    font-size: 9px;
+}
+
+/* Deuxième partie */
+.content-part2{
+    background-color: white;
+}
+
+/* Bar de navigation */
+.navbar{
+    display: flex;
+    justify-content: space-between;
+}
+
+.nav-bar-part2{
+    display: flex;
+}
+
+.nav-search{
+    margin-right: 10px;
+}
+
+/* Title */
+.header-title h2{
+    font-size: 20px;
+}
+
+/* Les grilles */
+.section-part1{
+    display: grid;
+    grid-template-columns: 1fr 2fr;
+    grid-gap: 10px;
+}
+
+.section-div{
+    border-radius: 20px;
+}
+
+.section-div1{
+    background-color: #FFC260;
+    width: 150px;
+    height: 200px;
+}
+
+.img{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 10px;
+}
+
+.img1{
+    width: 150px;
+    height: 200px;
+}
+
+.section-div2{
+    background-color: #0679D6;
+    width: 190px;
+    height: 200px;
+}
+
+.img2{
+    width: 190px;
+    height: 200px;
+}
+
+.section-part2{
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+}
+
+.section-div3{
+    background-color: #FFB9CA;
+    width: 100px;
+    height: 100px;
+}
+
+.img3{
+    width: 100px;
+    height: 100px;
+}
+
+.section-div4{
+    background-color: #A462C5;
+    width: 100px;
+    height: 100px;
+}
+
+.img4{
+    width: 100px;
+    height: 100px;
+}
+
+.section-div5{
+    background-color: #0673D5;
+    width: 100px;
+    height: 100px;
+}
+
+.img5{
+    width: 100px;
+    height: 100px;
+}
+
+.section-part3{
+    display: grid;
+    grid-template-columns: 2fr 1fr;
+}
+
+.section-div6{
+    background-color: #FFD044;
+    width: 190px;
+    height: 200px;
+}
+
+.img6{
+    width: 190px;
+    height: 200px;
+}
+
+.section-div7{
+    background-color: #82CCCC;
+    width: 150px;
+    height: 200px;
+}
+
+.img7{
+    width: 150px;
+    height: 200px;
+}
